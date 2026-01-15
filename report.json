@@ -1,0 +1,18 @@
+{
+  "problems": [
+    {
+      "id": "CI-001",
+      "type": "CI",
+      "severity": "high",
+      "file": "requirements.txt",
+      "description": "Insecure and deprecated package version (requests==0.0.1) replaced with pinned stable version (requests==2.31.0) and added mypy pinned version"
+    },
+    {
+      "id": "CD-001",
+      "type": "CD",
+      "severity": "medium",
+      "file": "app.py",
+      "description": "Added CLI support for --check-config and updated config to VALID so CD pipeline script can validate configuration and run successfully"
+    }
+  ]
+}

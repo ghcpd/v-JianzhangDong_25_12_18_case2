@@ -1,0 +1,14 @@
+# Ignore virtual environments
+.venv/
+
+# Ignore logs and temporary files
+logs/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Distribution / packaging
+build/
