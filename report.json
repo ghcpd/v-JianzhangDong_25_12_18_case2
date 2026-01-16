@@ -1,0 +1,32 @@
+{
+  "problems": [
+    {
+      "id": "CI-001",
+      "type": "CI",
+      "severity": "high",
+      "file": "requirements.txt",
+      "description": "Outdated and insecure requests version (0.0.1) posing security vulnerabilities"
+    },
+    {
+      "id": "CI-002",
+      "type": "CI",
+      "severity": "medium",
+      "file": "requirements.txt",
+      "description": "Missing mypy dependency required for CI pipeline type checking"
+    },
+    {
+      "id": "CD-001",
+      "type": "CD",
+      "severity": "medium",
+      "file": "app.py",
+      "description": "Application not handling --check-config argument, preventing proper config validation"
+    },
+    {
+      "id": "CD-002",
+      "type": "CD",
+      "severity": "high",
+      "file": "config.py",
+      "description": "Invalid API_KEY configuration causing application runtime failure"
+    }
+  ]
+}
